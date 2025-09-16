@@ -34,7 +34,7 @@ College of Information Science and Engineering / School of Design, Hunan Univers
 ## 🛡️ Defense Suggestions
 
 We propose and discuss the potential of the following mitigation strategies:
-*   **Adversarial Training:** Incorporate adversarial examples during model training to improve robustness against such targeted attacks[1](@ref).
+*   **Adversarial Training:** Incorporate adversarial examples during model training to improve robustness against such targeted attacks.
 *   **Anomaly Detection:** Develop mechanisms to identify point clouds that have been adversarially manipulated by detecting inconsistencies or missing key features.
 
 ## 📂 Repository Overview (Code & Data)
