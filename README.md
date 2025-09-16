@@ -17,12 +17,12 @@ College of Information Science and Engineering / School of Design, Hunan Univers
 
 ## 🎯 Abstract
 
-**DisorientLiDAR** is a novel adversarial attack that stealthily disrupts LiDAR-based localization in autonomous vehicles by strategically hiding key 3D regions via near-infrared absorbing materials. Unlike prior works focusing on 3D perception, we target the **localization pipeline**, demonstrating that removing just a few critical keypoints can severely degrade point cloud registration accuracy and induce significant localization drift[1](@ref).
+**DisorientLiDAR** is a novel adversarial attack that stealthily disrupts LiDAR-based localization in autonomous vehicles by strategically hiding key 3D regions via near-infrared absorbing materials. Unlike prior works focusing on 3D perception, we target the **localization pipeline**, demonstrating that removing just a few critical keypoints can severely degrade point cloud registration accuracy and induce significant localization drift.
 
 ## 🔍 Key Insights
 
-*   **DNN Vulnerability:** We reverse-engineer DNN-based registration models (e.g., HRegNet, D3Feat, GeoTransformer) and show they heavily rely on **local geometric key regions** for point cloud matching[1](@ref).
-*   **Practical Attack Vector:** By identifying and **occluding these key areas** (e.g., with IR-absorbing tape), attackers can effectively degrade localization performance in both **simulation (KITTI dataset)** and the **physical world**[1](@ref).
+*   **DNN Vulnerability:** We reverse-engineer DNN-based registration models (e.g., HRegNet, D3Feat, GeoTransformer) and show they heavily rely on **local geometric key regions** for point cloud matching.
+*   **Practical Attack Vector:** By identifying and **occluding these key areas** (e.g., with IR-absorbing tape), attackers can effectively degrade localization performance in both **simulation (KITTI dataset)** and the **physical world**.
 *   **Minimal Perturbation, Maximum Impact:** The attack demonstrates that causing significant localization drift does not require large-scale perturbations, highlighting a critical robustness issue in current systems.
 
 ## 🚗 Impact & Evaluation
@@ -35,17 +35,12 @@ College of Information Science and Engineering / School of Design, Hunan Univers
 
 We propose and discuss the potential of the following mitigation strategies:
 *   **Adversarial Training:** Incorporate adversarial examples during model training to improve robustness against such targeted attacks[1](@ref).
-*   **Anomaly Detection:** Develop mechanisms to identify point clouds that have been adversarially manipulated by detecting inconsistencies or missing key features[1](@ref).
+*   **Anomaly Detection:** Develop mechanisms to identify point clouds that have been adversarially manipulated by detecting inconsistencies or missing key features.
 
 ## 📂 Repository Overview (Code & Data)
 
-| Status | Description |
-| :--- | :--- |
-| **`Coming Soon`** | Code for key region identification and attack simulation. |
-| **`Coming Soon`** | Processed KITTI dataset samples used in our experiments. |
-| **`Coming Soon`** | Instructions for reproducing the physical-world attack setup. |
 
-> **Note:** We are working on preparing the code and data for public release. Please check back later or watch this repository for updates.
+> **Note:** We are working on preparing the code and data for public release.
 
 ## 🔗 Useful Links
 
