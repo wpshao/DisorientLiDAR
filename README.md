@@ -45,7 +45,6 @@ We propose and discuss the potential of the following mitigation strategies:
 ## 🔗 Useful Links
 
 *   📄 **Full Paper:** [Engineered Science, DOI: 10.30919/es1686](http://dx.doi.org/10.30919/es1686)
-*   🏢 **Hunan University:** [College of Information Science and Engineering](http://cise.hnu.edu.cn/)
 
 ---
 
