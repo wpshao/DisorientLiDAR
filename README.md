@@ -11,10 +11,6 @@
 | **Yifei Xue** | School of Design, Hunan University |
 | **Wanpeng Shao**<sup>*</sup> | College of Information Science and Engineering, Hunan University |
 
-
-**Affiliation:**  
-College of Information Science and Engineering / School of Design, Hunan University, No. 2, Lushan South Road, Yuelu District, Changsha, Hunan Province, 410082, China.
-
 ## 🎯 Abstract
 
 **DisorientLiDAR** is a novel adversarial attack that stealthily disrupts LiDAR-based localization in autonomous vehicles by strategically hiding key 3D regions via near-infrared absorbing materials. Unlike prior works focusing on 3D perception, we target the **localization pipeline**, demonstrating that removing just a few critical keypoints can severely degrade point cloud registration accuracy and induce significant localization drift.
