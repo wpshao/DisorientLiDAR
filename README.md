@@ -11,8 +11,6 @@
 | **Yifei Xue** | School of Design, Hunan University |
 | **Wanpeng Shao**<sup>*</sup> | College of Information Science and Engineering, Hunan University |
 
-<sup>#</sup> Denotes equal contribution.  
-<sup>*</sup> Denotes corresponding author.
 
 **Affiliation:**  
 College of Information Science and Engineering / School of Design, Hunan University, No. 2, Lushan South Road, Yuelu District, Changsha, Hunan Province, 410082, China.
